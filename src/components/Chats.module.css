@@ -1,0 +1,32 @@
+.flex{
+    display: flex;
+}
+.imgs{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:rgb(240, 158, 172) ;
+}
+.chat{
+    margin-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.img {
+    margin-left: 16rem;
+    font-size: 2rem;
+    color: rgb(209, 207, 204);
+    margin-top: 20px;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(206, 211, 211);
+    margin-top: -10px;
+}
+.scroll{
+    overflow-y:scroll ;
+    height: 75%;
+}

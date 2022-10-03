@@ -1,0 +1,52 @@
+.Name {
+    background-color: rgb(250, 251, 252);
+height: 35px;
+    width: 20%;
+    margin-left: 20px;
+    border: 2px solid #f0e8e5;
+}
+
+.Name2 {
+    background-color: rgb(250, 251, 252);
+    height: 35px;
+    width: 25%;
+    border: 2px solid #f0e8e5;
+}
+
+.Name3 {
+    background-color: rgb(250, 251, 252);
+    height: 35px;
+    width: 15%;
+    border: 2px solid #f0e8e5;
+}
+
+.Name4 {
+background-color: rgb(250, 251, 252);
+height: 35px;
+    width: 10%;
+    border: 2px solid #f0e8e5;
+}
+
+.Name5 {
+    background-color: rgb(250, 251, 252);
+    height: 35px;
+    width: 13%;
+    border: 2px solid #f0e8e5;
+}
+
+.Name6 {
+    background-color: rgb(250, 251, 252);
+    height: 35px;
+    width: 11%;
+    border: 2px solid #f0e8e5;
+}
+
+.flex {
+    display: flex;
+}
+.position{
+    font-weight: 500;
+    margin-top: 10px;
+     color: rgb(87, 89, 90);
+     margin-left: 10px;
+}

@@ -1,0 +1,79 @@
+.imgs {
+    margin-left: 3rem;
+    height: 40px;
+    width: 50px;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 10%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgb(231, 165, 43);
+    border-radius: 100%;
+    margin-top: 40px;
+}
+.cash{
+    color: rgb(141, 138, 138);
+    padding-top: 20px;
+}
+.cas {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.million{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    color: rgb(99, 96, 96);
+}
+.millio {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    color: rgb(48, 235, 79);
+}
+.angle{
+    color: rgb(243, 73, 73);
+    font-size: 15px;
+}
+.up {
+    color: rgb(241, 197, 52);
+    font-size: 15px;
+    margin-left: 5px;
+}
+.us {
+    color: rgb(61, 146, 243);
+    font-size: 15px;
+    margin-left: 5px;
+}
+.less{
+    margin-left: 5px;
+    color: rgb(141, 138, 138);
+}
+.cap {
+    margin-left: 4rem;
+    height: 40px;
+    width: 50px;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 10%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgb(235, 76, 48);
+    border-radius: 100%;
+    margin-top: 40px;
+    color: white;
+}
+.build {
+    margin-left: 4rem;
+    height: 40px;
+    width: 50px;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 10%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgb(48, 235, 79);
+    border-radius: 100%;
+    margin-top: 40px;
+    color: white;
+}

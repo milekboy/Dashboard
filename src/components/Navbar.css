@@ -1,0 +1,562 @@
+ .header {
+    width: 802px;
+    height: 4rem;
+     display: flex; 
+     align-items: center; 
+    background-color: white;
+     padding: 0 10%; 
+    box-shadow: 0 8px 6px -6px rgb(214, 198, 198);
+     z-index: 100; 
+   position: fixed;
+        right: 0;
+} 
+.headerr {
+    width: 998px;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0 10%;
+    box-shadow: 0 8px 6px -6px rgb(214, 198, 198);
+    z-index: 100;
+    position: fixed;
+    right: 0;
+}
+
+.logo {
+    margin-left: -8rem;
+    padding-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.lol{
+    margin-left: 5rem;
+    color: rgb(72, 126, 241);
+    height: 25px;
+    cursor: pointer;
+}
+.lols{
+    margin-left: 5rem;
+        color: rgb(72, 126, 241);
+        height: 25px;
+        cursor: pointer;
+        position: absolute;
+            right: 2%;
+}
+
+body.active.header {
+    margin-left: 0;
+    width: 100%;
+}
+ .sidebar {
+    background: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 20.5%;
+    height: 84%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    z-index: 100;
+    float: left;
+}
+
+.active {
+    left: -225px;
+}
+
+body.active .wrapper .sidebar {
+    left: -225px;
+}
+/* main page */
+.box {
+     width: var(--width); 
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+   
+}
+.bo{
+    width: 94% ;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+
+}
+.container {
+    background: rgb(246, 246, 248);
+    position: absolute;
+    top: 0;
+    right: 0;
+     width: inherit; 
+    height: 17.5%;
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    float: left;
+    overflow: hidden;
+}
+
+.imgs {
+    margin-left: 4rem;
+    height: 40px;
+    width: 50px;
+    cursor: pointer;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 10%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: white;
+    color: rgb(245, 169, 232);
+    box-shadow: -2px 1px 38px -8px rgba(77, 80, 80, 0.75);
+}
+
+/* .container {
+    margin-left: 10px; 
+} */
+
+.name {
+    color: rgb(104, 103, 103);
+     margin-bottom: 70px;
+    margin-left: 40px;
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.role {
+    color: rgb(184, 179, 179);
+    font-weight: 400;
+    margin-top: 4rem;
+    margin-left: -13.5rem;
+}
+.var1{
+  margin-left: 65px; 
+  border: none;
+  height: 40px;
+  width: 100px;
+  color: white;
+  background-color: rgb(74, 167, 230);
+  border-radius: 5px;
+}
+.var2 {
+   margin-left: 10px;
+height: 40px;
+    width: 100px;
+    border: none;
+    color: rgb(104, 100, 100);
+    border-radius: 5px;
+}
+.var2:hover{
+    color: white;
+        background-color: rgb(74, 167, 230);
+}
+.container2 {
+    background: rgb(231, 238, 241);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: inherit;
+    height: 17.5%;
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    float: left;
+    overflow: hidden;
+}
+.container3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: inherit;
+    height: 45%;
+    margin-top: 280px;
+    display: flex;
+    /* align-items: center; */
+    float: left;
+    overflow: hidden;
+background: rgb(231, 238, 241);
+}
+.inside{
+    height: 390px;
+ width: calc(100% - 18px); 
+    background-color: white;
+    margin-left: 65px;
+    margin-right: 50px;
+   
+}
+.portfolio{
+     padding-top: 10px;  
+
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(104, 103, 103);
+    
+}
+.portfoli{
+    display: flex;
+    
+}
+.portfol {
+    display: flex;
+    height: 70px;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color:rgb(214, 209, 209) ;
+}
+.line2 {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(214, 209, 209);
+    margin-top: 100px;
+}
+.view{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 630px;
+    background-color: white;
+    color: black;
+    border-color: black, 4px;
+    width: 5rem;
+
+}
+.view:hover{
+    background-color: black;
+        color: white;
+}
+.report{
+    margin-top: 20px;
+    margin-left: 38%;
+    height: 40px;
+    width: 250px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(22, 109, 209);
+    color: white;
+    box-shadow: -2px 1px 38px -8px rgba(19, 225, 240, 0.75);
+}
+.container4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: inherit;
+    height: 80%;
+    margin-top: 600px;
+    display: flex;
+    float: left;
+    overflow: hidden;
+background: rgb(231, 238, 241);
+}
+.insid {
+    height: 100%;
+     width: calc(100% - 550px); 
+    background-color: white;
+    margin-left: 65px;
+    margin-right: 50px;
+
+}
+.insidd {
+    height: 530px;
+    width: calc(100% - 550px);
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 50px;
+
+}
+.line4 {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(214, 209, 209);
+  
+}
+.line5 {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(214, 209, 209);
+margin-top: -60px;
+}
+.container5 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: inherit;
+height: 260px;
+     margin-top: 1200px;  
+    display: flex;
+    float: left;
+    overflow: hidden;
+background: rgb(231, 238, 241);
+}
+.inside1 {
+    height: 250px;
+    width: calc(100% - 850px);
+    background-color: white;
+    margin-left: 65px;
+    margin-right: 0px;
+
+}
+.inside2 {
+    height: 250px;
+    width: calc(100% - 850px);
+    background-color: white;
+    margin-left: 25px;
+}
+.container6 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: inherit;
+    height: 105%;
+    margin-top: 1500px;
+    display: flex;
+    float: left;
+    overflow: hidden;
+    background: rgb(231, 238, 241);
+}
+.insidei {
+    height: 100%;
+    width: calc(100% - 18px);
+    background-color: white;
+    margin-left: 65px;
+    margin-right: 50px;
+}
+.container7 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: inherit;
+    height: 80%;
+    margin-top: 2220px;
+    display: flex;
+    float: left;
+    overflow: hidden;
+    background: rgb(231, 238, 241);
+}
+.container8 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: inherit;
+    height: 22%;
+    margin-top: 2770px;
+    display: flex;
+    float: left;
+    overflow: hidden;
+    background: rgb(231, 238, 241);
+}
+.container9 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: inherit;
+    height: 10%;
+    margin-top: 2930px;
+    display: flex;
+    float: left;
+    overflow: hidden;
+    background: whitesmoke;
+}
+.portfolio {
+margin-top: -5px;
+    margin-left: 55px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(104, 103, 103);
+    display: flex;
+}
+
+.line4 {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(214, 209, 209);
+
+}
+.cloud{
+    margin-left: 20px;
+    margin-bottom: -22px;
+    font-size:20px ;
+margin-right: 20px;
+color: aquamarine;
+padding: 0px;
+}
+.carousel{
+     margin-top: 20px; 
+    height: 200px;
+    width: 490px ;    
+}
+.sale{
+font-weight: 500;
+color: rgb(129, 126, 126);
+margin-left: 30px;
+}
+.colors{
+    background-color: rgb(64, 83, 189);
+}
+.colors1 {
+    background-color: rgb(64, 189, 116);
+}
+.colors3 {
+    background-color: rgb(218, 215, 38);
+}
+.colors4 {
+    background-color: rgb(197, 83, 31);
+}
+.flex{
+    display: flex;
+}
+.computer{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    color: rgb(164, 165, 167);
+}
+.computerr {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    margin-left: 42rem;
+    color: rgb(164, 165, 167);
+    left: 0;
+    
+}
+#text{
+    margin-left: 20px;
+    font-weight: 400;
+    color: rgb(141, 138, 138);
+}
+.show{
+    margin-left: 20px;
+    font-weight: 400;
+    color: rgb(141, 138, 138);
+}
+.select{
+    margin-top: 20px;
+    margin-left: 2px;
+   margin-right: 4px;
+}
+.entries{
+    font-weight: 400;
+        color: rgb(141, 138, 138);
+}
+.sid{
+    height: 30px;
+    width: 50px;
+    color: rgb(141, 138, 138);
+}
+.input{
+    height: 20px;
+    margin-top: 20px;
+}
+.search{
+    font-weight: 500;
+        color: rgb(141, 138, 138);
+        margin-left: 500px;
+        margin-right: 5px;
+}
+.bold{
+    font-weight: 800;
+    color: rgb(59, 58, 58);
+}
+.positions {
+    font-weight: 500; 
+    margin-top: 10px;
+    color: rgb(87, 89, 90);
+    margin-left: 10px;
+}
+.positions2 {
+    font-weight: 800;
+    margin-top: 10px;
+    color: rgb(91, 93, 94);
+    margin-left: 10px;
+}
+.entries{
+    margin-left: 20px;
+    font-weight: 500;
+    color: rgb(91, 93, 94);
+
+}
+.inputs{
+margin-top: 20px;
+margin-left: 20px;
+width: 90%;
+
+}
+.vert{
+    height: 30px;
+    width: 1px;
+    background-color: rgb(115, 119, 119);
+margin-top: 15px;
+margin-left: 20px;
+}
+.phone{
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: rgb(216, 104, 104);
+}
+.earth {
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: rgb(136, 208, 226);
+}
+.chart {
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: rgb(245, 97, 97);
+}
+.grids{
+    color: rgb(128, 131, 131);
+    margin-left: 560px;
+    margin-right: 5px;
+    font-weight: 400;
+}
+.grid {
+    color: rgb(128, 131, 131);
+    margin-left: 20px;
+    margin-right: 5px;
+    font-weight: 400;
+}
+.up{
+    margin-top: 24px;
+    color: rgb(128, 131, 131);
+}
+.jjc{
+    height: 20px;
+    margin-right: 5px;
+    margin-top:20px ;
+    border: none;
+    color: white;
+    background-color: rgb(73, 72, 72);
+}
+.gear{
+    bottom: 0;
+    right: 0;
+   margin-bottom: 115px;
+   margin-right: 64px;
+   font-size: xx-large;
+    z-index: 100;
+    color: rgb(2, 2, 2);
+    background-color: orange;
+    position: fixed;
+    animation: spin 2s linear infinite;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   border-radius: 100%;
+
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg); 
+       
+    }
+}

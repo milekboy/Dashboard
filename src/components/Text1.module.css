@@ -1,0 +1,35 @@
+.img{
+    margin-left: 30px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.green{
+    background-color: rgb(75, 219, 75);
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    margin-top: 58px;
+    margin-left: -5px;
+    border: 2px solid white;
+}
+.chat{
+    height: 100px;
+    width: 78%;
+    margin-top: 30px;
+    background-color: rgb(213, 242, 247);
+    border-radius: 10px 40px 40px;
+}
+.message{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-top: 15px;
+}
+.time{
+    margin-left: 110px;
+    margin-top: 10px;
+    color: rgb(142, 143, 143);
+    font-weight: 400;
+}

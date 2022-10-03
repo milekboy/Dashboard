@@ -1,0 +1,23 @@
+.total{
+   font-size: 14px;
+   margin-left: 10px;
+   color: #747372;
+margin-right: 100px;
+}
+.year{
+    font-size: 12px;
+    margin-top: -9px;
+    margin-left: 10px;
+    font-weight: 400;
+    color: #b1afae;
+}
+.num{
+    margin-top: 9px;
+    color: rgb(24, 185, 24);
+    margin-right: 040px;
+}
+.num2 {
+    margin-top: 9px;
+    color: rgb(236, 67, 67);
+    margin-right: 040px;
+}

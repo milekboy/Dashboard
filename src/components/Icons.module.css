@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    margin-left: 50px;
+}
+.lol {
+    margin-left: 1rem;
+    height: 20px;
+    cursor: pointer;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+.cover{
+    background-color: rgb(216, 220, 228);
+    border-radius: 100%;
+    color: rgb(72, 126, 241); 
+
+}
+.coverr {
+    background-color: rgb(248, 205, 205);
+    border-radius: 100%;
+    color: red;
+    margin-left: 10px;
+}
+.coverrr {
+    background-color: rgb(228, 209, 209);
+    border-radius: 100%;
+    color: rgb(223, 95, 95);
+    margin-left: 10px;
+}
+.coverrrr {
+    background-color: rgb(196, 240, 196);
+    border-radius: 100%;
+    color: rgb(79, 216, 79);
+    margin-left: 10px;
+}

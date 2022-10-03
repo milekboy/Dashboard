@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+        align-items: center;
+        margin-left: 20px;
+        color: rgb(167, 163, 163);
+        cursor: pointer ;
+
+}
+.icon{
+    margin-right: 5px;
+}
+.icon:hover{
+    color: rgb(73, 202, 219);
+}
+.label{
+    margin-right: 5px;
+    font-size: 13px;
+    color: grey;
+    font-weight: 400;
+}

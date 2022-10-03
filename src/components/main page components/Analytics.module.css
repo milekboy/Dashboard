@@ -1,0 +1,49 @@
+
+.box{
+    width: var(--width);
+    bottom: 0;
+        right: 0;
+        height: 100%;
+        display: flex;
+}
+.container{
+    background: rgb(248, 247, 247);
+        position: absolute; 
+        top: 0;
+         right: 0;  
+            /* width: 79.5%;   */
+          width:var(--width) ;  
+        height: 17.5%;
+        margin-top: 65px;
+        display: flex;
+        align-items: center;
+        float: left;
+        overflow: hidden;
+}
+.imgs {
+    margin-left: 4rem ;
+    height: 40px;
+    width: 50px;
+    cursor: pointer;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 10%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: white;
+    color: rgb(245, 169, 232);
+    box-shadow: -2px 1px 38px -8px rgba(77, 80, 80, 0.75);
+}
+.container {
+    margin-left: 10px;
+}
+.name {
+    color: rgb(145, 143, 143);
+    margin-bottom: -15px;
+    margin-left: 7px;
+}
+
+.role {
+    color: rgb(184, 179, 179);
+    font-weight: 400;
+}

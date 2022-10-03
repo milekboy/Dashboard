@@ -1,0 +1,79 @@
+.wrappe .sideba {
+    background: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 6%; 
+     height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    z-index: 0;
+    float: left;
+    cursor: pointer;
+}
+
+.activ {
+    left: -225px;
+}
+
+body.activ .wrappe .sideba {
+    left: -225px;
+}
+
+.hea {
+  width: 7% ; 
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0 ;
+    box-shadow: 0 8px 6px -6px rgb(214, 198, 198);
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+}
+.lo {
+    margin-left: 2rem;
+    color: rgb(72, 126, 241);
+    height: 25px;
+    cursor: pointer;
+}
+.lo1 {
+    margin-left: 1.7rem;
+    color: rgb(220, 222, 226);
+    height: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+transform: rotate(270deg);
+}
+.tern{
+    height: 2px;
+    width: 30px;
+    background-color: rgb(218, 207, 207);
+    margin-top: 110px;
+    margin-left: 25px;
+}
+.tern2 {
+    height: 2px;
+    width: 30px;
+    background-color: rgb(218, 207, 207);
+    margin-top: 26px;
+    margin-left: 25px;
+}
+.lo2 {
+    margin-left: 1.9rem;
+    color: rgb(220, 222, 226);
+    height: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+.lo3 {
+    margin-left: 1.7rem;
+    color: rgb(220, 222, 226);
+    height: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+   
+
+}
