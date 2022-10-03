@@ -1,5 +1,5 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {  faBasketball, faCalendar, faCar, faDiamond, faDiamondTurnRight, faDirections, faGem, faLightbulb, faNoteSticky, faPieChart, faPizzaSlice, faSpaceShuttle, faX} from '@fortawesome/free-solid-svg-icons'
+import {  faBasketball, faCalendar, faCar, faDirections, faGem, faLightbulb, faNoteSticky, faPieChart, faPizzaSlice, faSpaceShuttle, faX} from '@fortawesome/free-solid-svg-icons'
 import './SidebarSub.css'
 const SidebarSub=(props)=>{
 return(

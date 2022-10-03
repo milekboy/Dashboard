@@ -14,7 +14,7 @@ return (<>
         </h1>
         <h className={classes.angle}>
           <FontAwesomeIcon icon={faAngleDown  }></FontAwesomeIcon>  
-          54.1% </h> <h className={classes. less}>less earnings</h>
+          54.1% </h> <h className={classes.less}>less earnings</h>
        
       </div>
 </>
@@ -27,7 +27,7 @@ return (<>
         <h1 className={classes.million}>
             9M
         </h1>
-        <h className={classes. less}>less earnings</h>
+        <h className={classes.less}>less earnings</h>
         <h className={classes.us}>
           <FontAwesomeIcon icon={faAngleDown  }></FontAwesomeIcon>  
           54.1% </h> 
@@ -43,7 +43,7 @@ return (<>
         <h1 className={classes.millio}>
           $563
         </h1>
-         <h className={classes. less}>increased by</h>
+         <h className={classes.less}>increased by</h>
         <h className={classes.up}>
           <FontAwesomeIcon icon={faAngleUp  }></FontAwesomeIcon>  
           54.1% </h>

@@ -10,7 +10,7 @@ const Text2=(props)=>{
 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.
 </h6>
 </div>
-<img src='https://demo.dashboardpack.com/architectui-html-pro/assets/images/avatars/1.jpg' alt='profile picture' className={classes.img}/>
+<img src='https://demo.dashboardpack.com/architectui-html-pro/assets/images/avatars/1.jpg' alt='profile' className={classes.img}/>
 <div className={classes.green}></div>
         </div>
         <h6 className={classes.time}>

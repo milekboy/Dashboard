@@ -7,7 +7,7 @@ const Profile=()=>{
         
     <>
          <div className={classes.line}></div>
-         <img src="https://demo.dashboardpack.com/architectui-html-pro/assets/images/avatars/1.jpg" className={classes.pic}/>
+         <img src="https://demo.dashboardpack.com/architectui-html-pro/assets/images/avatars/1.jpg" className={classes.pic} alt='alt'/>
             <FontAwesomeIcon icon={faAngleDown}className={classes.angle}></FontAwesomeIcon>
             <div className={classes.container}>
                 <h5 className={classes.name}>Alina Mclourd</h5>

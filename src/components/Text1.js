@@ -5,7 +5,7 @@ const Text1=(props)=>{
     return(
         <>
         <div className="flex">
-<img src='https://demo.dashboardpack.com/architectui-html-pro/assets/images/avatars/1.jpg' alt='profile picture' className={classes.img}/>
+<img src='https://demo.dashboardpack.com/architectui-html-pro/assets/images/avatars/1.jpg' alt='profile' className={classes.img}/>
 <div className={classes.green}></div>
 <div className={classes.chat}>
 <h6 className={classes.message}>

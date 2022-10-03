@@ -11,7 +11,7 @@ const Graphs=(props)=>{
  <h1 className={classes.texts}>%</h1>
  <h4 className={classes.num}>{props.plus}</h4>
   </div>
-  <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgxQQ1kfO2-em1L8l9EQ5xzv9X0D95pOhb2g&usqp=CAU' alt='graph picture' className={classes.img}></img>
+  <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgxQQ1kfO2-em1L8l9EQ5xzv9X0D95pOhb2g&usqp=CAU' alt='graph' className={classes.img}></img>
   
         </div>
     )

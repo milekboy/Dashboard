@@ -27,14 +27,14 @@ const String=()=>{
             <FontAwesomeIcon icon={faCircle} className={classes.circle4}></FontAwesomeIcon>
           <h5 className={classes.label4}>Something not important</h5>
           </div>
-          <img src="https://demo.dashboardpack.com/architectui-html-pro/assets/images/avatars/1.jpg" className={classes.pic}/>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU4g8xUnnDU4kVOp8_-3f3aPDusw_D2AlyXw&usqp=CAU" className={classes.pic2}/>
-             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9EWJXakOBhOQvhl8k0GCRsakU9RxV2m-qiQ&usqp=CAU" className={classes.pic2}/>
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwgu1A5zgPSvfE83nurkuzNEoXs9DMNr8Ww&usqp=CAU" className={classes.pic2}/>
-               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU4g8xUnnDU4kVOp8_-3f3aPDusw_D2AlyXw&usqp=CAU" className={classes.pic2}/>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5S7x-uPyVGyBxjUf5jqXgtILiU-6nprBTDw&usqp=CAU" className={classes.pic2}/>
-                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9EWJXakOBhOQvhl8k0GCRsakU9RxV2m-qiQ&usqp=CAU" className={classes.pic2}/>
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzHQv_th9wq3ivQ1CVk7UZRxhbPq64oQrg5Q&usqp=CAU" className={classes.pic2}/>
+          <img src="https://demo.dashboardpack.com/architectui-html-pro/assets/images/avatars/1.jpg" className={classes.pic} alt='graph'/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU4g8xUnnDU4kVOp8_-3f3aPDusw_D2AlyXw&usqp=CAU" className={classes.pic2} alt='graph'/>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9EWJXakOBhOQvhl8k0GCRsakU9RxV2m-qiQ&usqp=CAU" className={classes.pic2} alt='graph'/>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwgu1A5zgPSvfE83nurkuzNEoXs9DMNr8Ww&usqp=CAU" className={classes.pic2} alt='graph'/>
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU4g8xUnnDU4kVOp8_-3f3aPDusw_D2AlyXw&usqp=CAU" className={classes.pic2} alt='graph'/>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5S7x-uPyVGyBxjUf5jqXgtILiU-6nprBTDw&usqp=CAU" className={classes.pic2} alt='graph'/>
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9EWJXakOBhOQvhl8k0GCRsakU9RxV2m-qiQ&usqp=CAU" className={classes.pic2} alt='graph'/>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzHQv_th9wq3ivQ1CVk7UZRxhbPq64oQrg5Q&usqp=CAU" className={classes.pic2} alt='graph'/>
                   
                    <FontAwesomeIcon icon={faPlus} className={classes.plus}></FontAwesomeIcon >
                     <div > 
