@@ -49,6 +49,10 @@
     margin-left: 5px;
     color: rgb(141, 138, 138);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c41a6d5 (responsive)
 .cap {
     margin-left: 4rem;
     height: 40px;
@@ -76,4 +80,70 @@
     border-radius: 100%;
     margin-top: 40px;
     color: white;
+<<<<<<< HEAD
+=======
+}
+.flex{
+    display: flex;
+}
+@media (max-width:900px) {
+    .imgs {
+        margin-left: 1rem;
+        height: 20px;
+        padding-right: 0px;
+        padding-left: 0px;
+        border-radius: 10%;
+        border-radius: 100%;
+    }
+    .cap{
+        margin-left: 1rem;
+        height: 20px;
+        padding-right: 0px;
+        padding-left: 0px;
+        border-radius: 10%;
+        border-radius: 100%;
+    }
+    .build{
+        margin-left: 1rem;
+        height: 20px;
+        padding-right: 0px;
+        padding-left: 0px;
+        border-radius: 10%;
+        border-radius: 100%;
+    }
+    .cas {
+        margin-left: 10px;
+    }
+    .cash{
+        font-size: 10px;
+    }
+    .million{
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+        margin-top: 3px;
+    }
+    .millio{
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+        margin-top: 3px;
+    }
+    .angle{
+        font-size: 10px;
+    }
+    .less{
+        margin-left: 2px;
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    .us{
+        font-size: 10px;
+    }
+  
+    .lines{
+        height: 2px;
+        margin-top: 10px;
+        width: 17.5rem;
+        background-color: rgb(216, 215, 215);
+    }
+>>>>>>> c41a6d5 (responsive)
 }

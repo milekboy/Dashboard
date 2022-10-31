@@ -49,3 +49,35 @@ border-radius: 100%;
 margin-left: 30px;
     cursor: pointer;
 }
+<<<<<<< HEAD
+=======
+@media (max-width:900px) { 
+    .omo{
+        display: none;
+    }
+    .pic{
+        display: none;
+
+    }
+    .lines{
+        display: none;
+    }
+   
+    .line {
+        display: none;
+    }
+    
+    .angle{
+        display: none;
+    }
+    .name{
+        display: none;
+    }
+   e .role{
+    display: none;
+    }
+    .container{
+        display: none;
+    }
+}
+>>>>>>> c41a6d5 (responsive)

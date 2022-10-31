@@ -29,4 +29,31 @@ cursor: pointer;
         height: 20px;
         margin-left: 25px;
         margin-top: 8px;
+<<<<<<< HEAD
+=======
+}
+@media (min-width:900px) {
+    .searchbar{
+      
+        margin-left: -40px;
+       
+    }
+}
+@media (max-width:900px) {
+    .searchbar{
+        border-radius: 30px;
+        width: 220px;
+        height: 40px;
+        margin-left: 110px;
+        margin-top: 5px;
+        background-color: rgb(245, 241, 241);
+    }
+    .input{
+        width: 180px;
+    }
+    .cancel{
+       display: none;
+    }
+   
+>>>>>>> c41a6d5 (responsive)
 }

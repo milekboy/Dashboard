@@ -12,6 +12,7 @@ margin-right: 100px;
     color: #b1afae;
 }
 .num{
+<<<<<<< HEAD
     margin-top: 9px;
     color: rgb(24, 185, 24);
     margin-right: 040px;
@@ -21,3 +22,56 @@ margin-right: 100px;
     color: rgb(236, 67, 67);
     margin-right: 040px;
 }
+=======
+    margin-top: -60px;
+    color: rgb(24, 185, 24);
+    margin-right: 90px;
+    margin-left: 150px;
+}
+.numm{
+    margin-top: -60px;
+    color: rgb(64, 102, 207);
+    margin-left: 150px;
+}
+.num2 {
+    margin-top: -60px;
+    color: rgb(236, 67, 67);
+    margin-left: 150px;
+    margin-right: 90px;
+}
+.flexi{
+    display:flex ;
+}
+ @media (max-width:900px) {
+    .flexi{
+        display: block;
+    }
+    .flexii{
+        display: flex;
+    }
+    .total{
+        font-size: 10px;
+    }
+    .num{
+        font-size: 20px;
+        margin-top: 0px;
+     margin-left: 27px;
+    }
+    .numm{
+        font-size: 20px;
+     margin-top: 0px;
+     display: none;
+     margin-left: 0px;
+    }
+    .num2{
+        font-size: 20px;
+        margin-top: 0px;
+        margin-left: 13px;
+    }
+    .blue{
+        display: none;
+    }
+
+} 
+
+>>>>>>> c41a6d5 (responsive)

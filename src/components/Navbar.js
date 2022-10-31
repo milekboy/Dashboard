@@ -3,6 +3,12 @@ import { faCar, faBars, faCloudArrowDown, faComputer, faMicrophone, faEarth, faP
 import Slider from "react-slick";
 import './Navbar.css'
 import { useState} from 'react';
+=======
+import { faCar, faBars, faCloudArrowDown, faComputer, faMicrophone, faEarth, faPieChart, faAngleUp, faGear , faGripVertical, faX} from '@fortawesome/free-solid-svg-icons'
+import Slider from "react-slick";
+import './Navbar.css'
+import { useLayoutEffect,useState} from 'react';
+>>>>>>> c41a6d5 (responsive)
 import Searchbar from './Searchbar';
 import Mega from './Mega';
 import Icons from './Icons';
@@ -18,7 +24,26 @@ import Table2 from './Table2';
 import Tasks from './Tasks';
 import Chats from './Chats';
 import Followers from './Followers';
+<<<<<<< HEAD
 const Navbar =(props)=>{
+=======
+import Pack from './Pack';
+import SmallAnalytics from './small screen components/SmallAnalytics';
+function useWindowSize() {
+  const [size, setSize] = useState([0, 0]);
+  useLayoutEffect(() => {
+    function updateSize() {
+      setSize([window.innerWidth, window.innerHeight]);
+    }
+    window.addEventListener('resize', updateSize);
+    updateSize();
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
+  return size;
+}
+const Navbar =(props)=>{
+  const [width, height] = useWindowSize();
+>>>>>>> c41a6d5 (responsive)
    const [searchOn, setSearchOn] =useState(false);
    function searchOnHandler(){
    setSearchOn(true);
@@ -27,7 +52,11 @@ const Navbar =(props)=>{
    setSearchOn(false);
    }
 
+<<<<<<< HEAD
   const [sidebarIsOpen, setSidebarIsOpen] = useState(true);
+=======
+  const [sidebarIsOpen, setSidebarIsOpen] = useState(false);
+>>>>>>> c41a6d5 (responsive)
    function toggleSidebarHandler(){
     setSidebarIsOpen(value => !value);
      ;
@@ -39,15 +68,40 @@ const Navbar =(props)=>{
       slidesToShow: 1,
       slidesToScroll: 1
     };
+<<<<<<< HEAD
    
     return ( 
       <div>
        
      {sidebarIsOpen ?<Remake chill={toggleSidebarHandler}/>:<SidebarSub chill={toggleSidebarHandler}/>}
+=======
+    const isMobile = window.screen.width > 600
+    
+    const [packActive, setPackActive]=useState(false);
+function packActiveHandler(){
+    setPackActive(current => !current);
+}
+    return ( 
+      <div>
+       
+    {sidebarIsOpen && isMobile?<Remake chill={toggleSidebarHandler}/>: isMobile?<SidebarSub chill={toggleSidebarHandler}/>:     <>
+<nav className='navs'>
+    <div className='flexs'>
+        {sidebarIsOpen ? <FontAwesomeIcon icon={faX}  className='bars' onClick={toggleSidebarHandler}></FontAwesomeIcon> :
+    <FontAwesomeIcon icon={faBars} className='bars' onClick={toggleSidebarHandler}></FontAwesomeIcon>}
+    <h2 className='arch'>architect</h2>
+    <FontAwesomeIcon icon={faGripVertical}  className='grips' onClick={packActiveHandler} ></FontAwesomeIcon>
+    </div>
+</nav>
+{sidebarIsOpen? <Remake/>:null}
+{ packActive ? <Pack/>: null}
+</>}
+>>>>>>> c41a6d5 (responsive)
     <header className={sidebarIsOpen? "header":"headerr"}>
    {searchOn ?<Searchbar change={searchOffHandler} />: <Mega onHandler={searchOnHandler}/>}
    <Icons/>
    <Profile/>
+<<<<<<< HEAD
    <FontAwesomeIcon icon={faBars }  className='lols'></FontAwesomeIcon> 
     </header>
        <div className={sidebarIsOpen? "box":"bo"}>
@@ -62,6 +116,25 @@ const Navbar =(props)=>{
         </div>
         <div className='container3'>
         <div className='inside'>
+=======
+   <FontAwesomeIcon icon={faBars }  className='lolz'></FontAwesomeIcon> 
+    </header>
+       <div className={sidebarIsOpen? "box":"bo"}>
+         { isMobile ? 
+         <div className='container'>
+            <FontAwesomeIcon icon={faCar } className='imgs'></FontAwesomeIcon>
+                <h5 className='name'>Analytics Dashboard</h5>
+                <h5 className='role'>This is an example dashboard created using build-in elements and components.</h5>
+         </div> : <SmallAnalytics/>}
+         <div className='container2'>
+          <button className='var1'>Variation 1</button>
+          <div>
+          <button className='var2'>Variation 2</button>
+          </div>
+         </div>
+         <div className='container3'>
+         <div className='inside'>
+>>>>>>> c41a6d5 (responsive)
            <div className='portfoli' ><h3 className='portfolio'>Portfolio Performance</h3>
            <button className='view'>View All</button>
            </div>
@@ -71,16 +144,26 @@ const Navbar =(props)=>{
            </div>
             <div className='line2'></div>
              <button className='report'>View Complete Report</button>
+<<<<<<< HEAD
         </div>
        
         </div>
+=======
+         </div>
+       
+         </div>
+>>>>>>> c41a6d5 (responsive)
          <div className='container4'>
           <div className='insid'>
             <>
              <FontAwesomeIcon icon={faCloudArrowDown }  className='cloud'></FontAwesomeIcon> 
               <h3 className='portfolio'>
                Technical Support</h3>
+<<<<<<< HEAD
         <div className='line4
+=======
+         <div className='line4
+>>>>>>> c41a6d5 (responsive)
          '></div>
          <div className='carousel'>
              <Slider {...settings}>
@@ -94,9 +177,15 @@ const Navbar =(props)=>{
           <div>
             <Graphs  number='52' plus='+10'/>
           </div>
+<<<<<<< HEAD
         </Slider>
         <h4 className='sale'>SALES PROGRESS</h4>
          <div className='line4
+=======
+         </Slider>
+         <h4 className='sale'>SALES PROGRESS</h4>
+         <div className='linex
+>>>>>>> c41a6d5 (responsive)
          '></div>
          </div>
             </>
@@ -105,8 +194,13 @@ const Navbar =(props)=>{
            <String/>
             </div> 
             
+<<<<<<< HEAD
     </div>
  <div className='container5'>
+=======
+         </div>
+         <div className='container5'>
+>>>>>>> c41a6d5 (responsive)
     <div className='inside1'>
           <Sales number='874' text='sales last month'
           className="colors1"/>  
@@ -130,7 +224,11 @@ const Navbar =(props)=>{
             <h3 id='text'> Easy Dynamic Tables</h3>
              <FontAwesomeIcon icon={faBars } className='computerr' ></FontAwesomeIcon> 
            </div>
+<<<<<<< HEAD
            <div className='line'></div>
+=======
+           <div className='lin'></div>
+>>>>>>> c41a6d5 (responsive)
            <div className='flex'>
              <h4 className='show'>Show</h4>
               <div className='select'>
@@ -152,7 +250,11 @@ const Navbar =(props)=>{
         
          <Table2
           Name='Airi Satou'
+<<<<<<< HEAD
         Position='Accountant'
+=======
+        Position='Account'
+>>>>>>> c41a6d5 (responsive)
         Office='Tokyo'
         Age='33'
         Start='2008/11/28	'
@@ -237,7 +339,11 @@ const Navbar =(props)=>{
         Salary='Salary'
            />
            <div className='flex'>
+<<<<<<< HEAD
             <h4 className='entries'> Showing 1 to 10 0f 57 entries</h4>
+=======
+            <h4 className='entriess'> Showing 1 to 10 0f 57 entries</h4>
+>>>>>>> c41a6d5 (responsive)
            </div>
           </div>
            </div>
@@ -247,10 +353,15 @@ const Navbar =(props)=>{
             </div>
             <div className='insidd'> 
             <Chats/>
+<<<<<<< HEAD
+=======
+            <div className='line'></div>
+>>>>>>> c41a6d5 (responsive)
             <input placeholder='Write here and hit to send...' className='inputs'/>
             </div>
            </div>
              <div className='container8'>
+<<<<<<< HEAD
             <div className='inside'>
                <Followers/>
                <div className='line'></div>
@@ -259,6 +370,16 @@ const Navbar =(props)=>{
            </div>
            <div className='container9'>
             <div className='flex'>
+=======
+            <div className='insidex'>
+               <Followers/>
+               {/* <div className='line'></div> */}
+                <Followers/> 
+            </div>
+           </div>
+           <div className='container9'>
+            <div className='flexx'>
+>>>>>>> c41a6d5 (responsive)
               <FontAwesomeIcon icon={faMicrophone } className='phone'></FontAwesomeIcon>
               <div className='vert'></div>
                  <FontAwesomeIcon icon={faEarth } className='earth'></FontAwesomeIcon>

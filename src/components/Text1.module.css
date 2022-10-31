@@ -32,4 +32,19 @@
     margin-top: 10px;
     color: rgb(142, 143, 143);
     font-weight: 400;
+<<<<<<< HEAD
+=======
+}
+@media (max-width:900px) {
+    .chat{
+        height: 120px;
+        border-radius: 0px 20px 20px;
+    }
+    .img{
+        margin-left: 10px;
+    }
+    .time{
+        margin-left: 70px;
+    }
+>>>>>>> c41a6d5 (responsive)
 }

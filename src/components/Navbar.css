@@ -22,6 +22,41 @@
     position: fixed;
     right: 0;
 }
+<<<<<<< HEAD
+=======
+.navs{
+    width: 74%;
+  
+    height: 65px;
+    background-color: white;
+    z-index: 1000;
+    position: fixed;
+    box-shadow: 0 8px 6px -6px rgb(214, 198, 198); 
+}
+.bars{
+    margin-left: 2rem;
+    color: rgb(72, 126, 241);
+    height: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 20px;
+}
+.flexs{
+    display: flex;
+}
+.arch{
+    margin-left: 3.5rem;
+    margin-top: 9px;
+}
+.grips{
+    margin-left: 4rem;
+    margin-top: 17px;
+    color: white;
+    background-color: rgb(72, 126, 241) ;
+    padding: 2px;
+}
+
+>>>>>>> c41a6d5 (responsive)
 
 .logo {
     margin-left: -8rem;
@@ -36,7 +71,11 @@
     height: 25px;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .lols{
+=======
+.lolz{
+>>>>>>> c41a6d5 (responsive)
     margin-left: 5rem;
         color: rgb(72, 126, 241);
         height: 25px;
@@ -69,6 +108,7 @@ body.active.header {
 body.active .wrapper .sidebar {
     left: -225px;
 }
+<<<<<<< HEAD
 /* main page */
 .box {
      width: var(--width); 
@@ -86,6 +126,8 @@ body.active .wrapper .sidebar {
     display: flex;
 
 }
+=======
+>>>>>>> c41a6d5 (responsive)
 .container {
     background: rgb(246, 246, 248);
     position: absolute;
@@ -149,6 +191,10 @@ height: 40px;
     border: none;
     color: rgb(104, 100, 100);
     border-radius: 5px;
+<<<<<<< HEAD
+=======
+    background: rgb(231, 238, 241);
+>>>>>>> c41a6d5 (responsive)
 }
 .var2:hover{
     color: white;
@@ -188,9 +234,22 @@ background: rgb(231, 238, 241);
     margin-right: 50px;
    
 }
+<<<<<<< HEAD
 .portfolio{
      padding-top: 10px;  
 
+=======
+.insidex{
+    height: 390px;
+ width: calc(100% - 18px); 
+    background-color: white;
+    margin-left: 65px;
+    margin-right: 50px;
+   
+}
+.portfolio{
+     padding-top: 10px; 
+>>>>>>> c41a6d5 (responsive)
     margin-left: 40px;
     font-size: 20px;
     font-weight: 400;
@@ -198,8 +257,12 @@ background: rgb(231, 238, 241);
     
 }
 .portfoli{
+<<<<<<< HEAD
     display: flex;
     
+=======
+    display: flex; 
+>>>>>>> c41a6d5 (responsive)
 }
 .portfol {
     display: flex;
@@ -222,7 +285,11 @@ background: rgb(231, 238, 241);
     margin-left: 630px;
     background-color: white;
     color: black;
+<<<<<<< HEAD
     border-color: black, 4px;
+=======
+    border-color: black, 3px;
+>>>>>>> c41a6d5 (responsive)
     width: 5rem;
 
 }
@@ -275,6 +342,15 @@ background: rgb(231, 238, 241);
     background-color: rgb(214, 209, 209);
   
 }
+<<<<<<< HEAD
+=======
+.linex {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(214, 209, 209);
+  
+}
+>>>>>>> c41a6d5 (responsive)
 .line5 {
     height: 1px;
     width: 100%;
@@ -443,6 +519,14 @@ margin-left: 30px;
     font-weight: 400;
         color: rgb(141, 138, 138);
 }
+<<<<<<< HEAD
+=======
+.entriess{
+    font-weight: 400;
+        color: rgb(141, 138, 138);
+        margin-left: 10px;
+}
+>>>>>>> c41a6d5 (responsive)
 .sid{
     height: 30px;
     width: 50px;
@@ -505,6 +589,12 @@ margin-left: 20px;
     margin-left: 20px;
     color: rgb(136, 208, 226);
 }
+<<<<<<< HEAD
+=======
+.flexx{
+    display: flex;
+}
+>>>>>>> c41a6d5 (responsive)
 .chart {
     font-size: 2rem;
     margin-top: 15px;
@@ -553,10 +643,359 @@ margin-left: 20px;
    border-radius: 100%;
 
 }
+<<<<<<< HEAD
+=======
+.box {
+    width: var(--width); 
+   bottom: 0;
+   right: 0;
+   height: 100%;
+   display: flex;
+  
+}
+.bo{
+   width: 94% ;
+   bottom: 0;
+   right: 0;
+   height: 100%;
+   display: flex;
+
+}
+>>>>>>> c41a6d5 (responsive)
 
 @keyframes spin {
     100% {
         transform: rotate(360deg); 
        
     }
+<<<<<<< HEAD
+=======
+}
+@media (min-width:900px) {
+.view{
+    margin-left: 730px;
+}
+
+.inside{
+    height: 300px;
+   
+}
+.insid {
+    height: 88%;
+    }
+
+.insidei {
+    height: 85%;
+   
+}
+.insidex{
+    height: 150px;
+
+   
+}
+.grids{
+    
+    margin-left: 670px;
+  
+}
+}
+@media (max-width:900px) {
+    .headerr{
+        /* left: 0; */
+        width: 414px;
+        display: none;
+       
+    }
+    .header{
+        display: none;
+        width: 414px;
+        left: 0;
+    }
+    .box{
+       width: 414px;
+    }
+    .bo{
+       width: 414px;
+    }
+   
+    .container{
+        display: none;
+    }
+    .gear{
+        display: none;
+    }
+    .container2 {
+        left: 0;
+        display: block;
+        width: 290px;
+    }
+    .var1{
+        margin-left: 8px; 
+        border: none;
+        height: 30px;
+        width: 280px;
+        color: white;
+        background-color: rgb(74, 123, 230);
+        border-radius: 5px;
+        margin-top: 10px;
+      }
+      .var2 {
+        margin-left: 8px; 
+        background-color: rgb(74, 123, 230);
+      height: 30px;
+      margin-top: 10px;
+          width: 280px;
+          border: none;
+          color: white;
+          border-radius: 5px;
+      }
+      .container3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 290px;
+        height: 55%;
+        margin-left:0px ;
+        margin-top: 270px;
+        display: block;
+        /* align-items: center; */
+        float: left;
+        overflow: hidden;
+    background: rgb(231, 238, 241);
+    }
+    .inside{
+     width: 17.5rem; 
+     margin-left: 8px;
+     height: fit-content;
+    }
+    .portfoli{
+        width: 17.5rem
+    }
+    .portfolio{
+        padding-top: 10px; 
+       margin-left: 90px;
+       font-size: 13px;
+       font-weight: 400;
+       color: rgb(104, 103, 103);
+       margin-bottom: 40px;
+   }
+   .view{
+    height: 25px;
+    margin-top: 30px;
+    margin-left: -110px;
+    width: 5rem;
+   }
+   .line{
+    width: 17.5rem
+   }
+   .portfol {
+    display: block;
+    height: 260px;
+   
+}
+
+.report{
+    margin-left: 5%;
+    padding-bottom: -7px;
+    
+}
+.container4 {
+    position: absolute;
+    width: 17.6rem;
+    height: 85%;
+    margin-top: 770px;
+    margin-right: 125px;
+    display: block;  
+    overflow: visible;
+background: rgb(231, 238, 241);
+
+}
+.line2{
+    width: 100%;
+}
+.insid {
+    height: 57%;
+     width: inherit; 
+    background-color: white;
+    margin-left: 0px;
+}
+.insidd {
+    height:68.5%;
+     width: inherit; 
+    background-color: white;
+    margin-left: 0px;
+    margin-top:10px ;
+}
+.container5{
+    margin-top: 1900px;
+    position: absolute;
+    width: 17.6rem;
+    height: 100%;
+    margin-right: 126px;
+    margin-top: 1745px;
+    display: block;  
+    overflow: visible;
+background: rgb(231, 238, 241);
+}
+.carousel{
+    margin-top: 20px; 
+   height: 100px;
+   width: 305px ; 
+   margin-left: -50px;  
+}
+.sale{
+    margin-left: 70px;
+    }
+    .linex{
+        width: 17.5rem;
+        margin-left: 50px;
+    }
+    .line4 {
+       margin-top: -20px;
+      
+    }
+    .container6{
+        margin-right: 126px;
+        position: absolute;
+        width: 17.6rem;
+        height: 100%;
+        margin-top: 2590px;
+        display: block;  
+        overflow: visible;
+    background: rgb(231, 238, 241);
+    }
+    #text{
+        font-size: smaller;
+        width: 200px;
+        display: flex;
+        margin-top: 0px;
+    }
+    .insidei {
+        height:114%;
+         width: inherit; 
+        background-color: white;
+        margin-left: 0px;
+        margin-top:00px ;
+     
+    }
+    .inside1 {
+        height:22.5%;
+         width: inherit; 
+        background-color: white;
+        margin-left: 0px;
+        margin-top:0px ;
+     
+    }
+    .inside2 {
+        height:22.5%;
+         width: inherit; 
+        background-color: white;
+        margin-left: 0px;
+        margin-top:10px ;
+     
+    }
+    .computer{
+        margin-top: 0px;
+    }
+    .computerr{
+        display: none;
+    }
+    .search{
+        margin-left: -150px;
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    .input{
+        margin-left: 0px;
+        font-size: 14px;
+        margin-top: 0px;
+        width: 70px;
+    }
+    .container7{
+        position: absolute;
+        width: 17.6rem;
+        height: 90%;
+        display: block;  
+        overflow: visible;
+    background: rgb(231, 238, 241);
+        margin-top: 3620px;
+        margin-right: 126px;
+    }
+    .container8{
+        margin-top: 4650px;
+        position: absolute;
+        width: 17.6rem;
+        margin-right: 126px;
+        height: 30%;
+        display: block;  
+        overflow: visible;
+    background: rgb(231, 238, 241);
+    }
+    .insidex {
+        height:100%;
+         width: inherit; 
+        background-color: white;
+        margin-left: 0px;
+        margin-top:0px ;
+     
+    }
+    .container9{
+        margin-top: 4963px;
+        position: absolute;
+  
+        width: 18.1rem;
+        display: flex;  
+        overflow: visible;
+        left: 0;
+        height: 80px;
+        /* margin-left: 10px; */
+    }
+    .show{
+        margin-top: 50px;
+    }
+    .select{
+        margin-top: 50px;
+    }
+    .lolz{
+     display: none;
+    }
+    .entries{
+        margin-top: 50px;
+    }
+    .inputs{
+        margin-left: 10px;
+    }
+    .flexx{
+        display: flex;
+        width: inherit; 
+        margin-left: 22px;
+    }
+.vert{
+    display: none;
+}
+.charts{
+    display: none;
+}
+.grid{
+    display: none;
+}
+.grids{
+    display: none;
+}
+.up{
+    display: none;
+}
+.jjc{
+    display: none;
+}
+.gear{
+    display: none;
+}
+.earth{
+margin-left: 70px;
+}
+.chart{
+    margin-left: 70px;
+    }
+>>>>>>> c41a6d5 (responsive)
 }

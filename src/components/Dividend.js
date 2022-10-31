@@ -4,6 +4,10 @@ import classes from './Dividend.module.css'
 const Dividend =()=>{
 return (<>
   <>
+<<<<<<< HEAD
+=======
+  <div className={classes.flex}>
+>>>>>>> c41a6d5 (responsive)
       <FontAwesomeIcon icon={faComputer } className={classes.imgs}></FontAwesomeIcon>
       <div className={classes.cas}>
         <h className={classes.cash}>
@@ -17,8 +21,16 @@ return (<>
           54.1% </h> <h className={classes.less}>less earnings</h>
        
       </div>
+<<<<<<< HEAD
 </>
 <>
+=======
+      </div>
+</>
+<div className={classes.lines}></div>
+<>
+<div className={classes.flex}>
+>>>>>>> c41a6d5 (responsive)
       <FontAwesomeIcon icon={faGraduationCap } className={classes.cap}></FontAwesomeIcon>
       <div className={classes.cas}>
         <h className={classes.cash}>
@@ -33,8 +45,16 @@ return (<>
           54.1% </h> 
        
       </div>
+<<<<<<< HEAD
 </>
 <>
+=======
+      </div>
+</>
+<div className={classes.lines}></div>
+<>
+<div className={classes.flex}> 
+>>>>>>> c41a6d5 (responsive)
       <FontAwesomeIcon icon={faBuilding } className={classes.build}></FontAwesomeIcon>
       <div className={classes.cas}>
         <h className={classes.cash}>
@@ -49,6 +69,10 @@ return (<>
           54.1% </h>
        
       </div>
+<<<<<<< HEAD
+=======
+      </div>
+>>>>>>> c41a6d5 (responsive)
 </>
       </>
 )

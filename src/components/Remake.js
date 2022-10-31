@@ -31,6 +31,11 @@ function dropdown6Handler(){
 function dropdown7Handler(){
     setDropdown7Active(value => !value);
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> c41a6d5 (responsive)
     return(<>
          <header className='head'>
         <h3 className='logo'>architect</h3>

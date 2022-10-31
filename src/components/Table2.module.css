@@ -49,4 +49,34 @@ height: 35px;
     margin-top: 10px;
      color: rgb(87, 89, 90);
      margin-left: 10px;
+<<<<<<< HEAD
+=======
+}
+@media (max-width:900px) {
+    .Name5{
+        display: none;
+    }
+    .Name6{
+        display: none;
+    }
+    .Name4 {
+        height: 65px;
+        width: 15%;
+    }
+    .Name3 {
+        height: 65px;
+        width: 25%;
+    }
+    .Name {
+        height: 65px;
+        width: 28%;
+        margin-left: 2px;
+    }
+    .Name2 {
+        height: 65px;
+        width: 25%;
+        text-align: center;
+        
+    }
+>>>>>>> c41a6d5 (responsive)
 }

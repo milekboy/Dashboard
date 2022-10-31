@@ -3,4 +3,13 @@
     color: rgb(72, 126, 241);
     height: 25px;
     cursor: pointer;
+<<<<<<< HEAD
+=======
+}
+@media (min-width:900px) {
+    .lol {
+        margin-left: -8.5rem;
+       
+    } 
+>>>>>>> c41a6d5 (responsive)
 }

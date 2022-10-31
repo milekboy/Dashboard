@@ -29,4 +29,17 @@
 .scroll{
     overflow-y:scroll ;
     height: 75%;
+<<<<<<< HEAD
+=======
+}
+@media (min-width:900px) {
+    .img{
+        margin-left: 21rem;
+     }
+}
+@media (max-width:900px) {
+    .img{
+        display: none;
+    }
+>>>>>>> c41a6d5 (responsive)
 }

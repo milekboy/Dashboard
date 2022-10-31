@@ -15,6 +15,10 @@
 
 .Name3 {
     background-color: white;
+<<<<<<< HEAD
+=======
+   
+>>>>>>> c41a6d5 (responsive)
     height: 35px;
     width: 15%;
     border: 2px solid #f0e8e5;
@@ -48,4 +52,34 @@ height: 35px;
     margin-top: 10px;
     /* color: rgb(87, 89, 90); */
     margin-left: 10px;
+<<<<<<< HEAD
+=======
+}
+@media (max-width:900px) {
+    .Name5{
+        display: none;
+        width: 0px;
+    }
+    .Name6{
+        display: none;
+        width: 0px;
+    }
+    .Name4 {
+        height: 65px;
+        width: 42px;
+    }
+    .Name3 {
+        height: 65px;
+        width: 25%;
+    }
+    .Name2 {
+        height: 65px;
+        width: 25%;
+    }
+    .Name {
+        height: 65px;
+        width: 28%;
+        margin-left: 2px;
+    }
+>>>>>>> c41a6d5 (responsive)
 }
