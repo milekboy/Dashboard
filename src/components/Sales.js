@@ -3,11 +3,7 @@ import  './Sales.css'
 const Sales =(props)=>{
     return(
         <>
-<<<<<<< HEAD
-        <div className='boxes'>
-=======
         <div className='boxess'>
->>>>>>> c41a6d5 (responsive)
    <h4 className='dollar'>$</h4>
    <h1 className='number'>{props.number}</h1>
    </div>
