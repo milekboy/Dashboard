@@ -22,8 +22,6 @@
     position: fixed;
     right: 0;
 }
-<<<<<<< HEAD
-=======
 .navs{
     width: 74%;
   
@@ -56,7 +54,6 @@
     padding: 2px;
 }
 
->>>>>>> c41a6d5 (responsive)
 
 .logo {
     margin-left: -8rem;
@@ -71,11 +68,7 @@
     height: 25px;
     cursor: pointer;
 }
-<<<<<<< HEAD
-.lols{
-=======
 .lolz{
->>>>>>> c41a6d5 (responsive)
     margin-left: 5rem;
         color: rgb(72, 126, 241);
         height: 25px;
@@ -108,26 +101,6 @@ body.active.header {
 body.active .wrapper .sidebar {
     left: -225px;
 }
-<<<<<<< HEAD
-/* main page */
-.box {
-     width: var(--width); 
-    bottom: 0;
-    right: 0;
-    height: 100%;
-    display: flex;
-   
-}
-.bo{
-    width: 94% ;
-    bottom: 0;
-    right: 0;
-    height: 100%;
-    display: flex;
-
-}
-=======
->>>>>>> c41a6d5 (responsive)
 .container {
     background: rgb(246, 246, 248);
     position: absolute;
@@ -191,10 +164,7 @@ height: 40px;
     border: none;
     color: rgb(104, 100, 100);
     border-radius: 5px;
-<<<<<<< HEAD
-=======
     background: rgb(231, 238, 241);
->>>>>>> c41a6d5 (responsive)
 }
 .var2:hover{
     color: white;
@@ -234,11 +204,6 @@ background: rgb(231, 238, 241);
     margin-right: 50px;
    
 }
-<<<<<<< HEAD
-.portfolio{
-     padding-top: 10px;  
-
-=======
 .insidex{
     height: 390px;
  width: calc(100% - 18px); 
@@ -249,7 +214,6 @@ background: rgb(231, 238, 241);
 }
 .portfolio{
      padding-top: 10px; 
->>>>>>> c41a6d5 (responsive)
     margin-left: 40px;
     font-size: 20px;
     font-weight: 400;
@@ -257,12 +221,7 @@ background: rgb(231, 238, 241);
     
 }
 .portfoli{
-<<<<<<< HEAD
-    display: flex;
-    
-=======
     display: flex; 
->>>>>>> c41a6d5 (responsive)
 }
 .portfol {
     display: flex;
@@ -285,11 +244,7 @@ background: rgb(231, 238, 241);
     margin-left: 630px;
     background-color: white;
     color: black;
-<<<<<<< HEAD
-    border-color: black, 4px;
-=======
     border-color: black, 3px;
->>>>>>> c41a6d5 (responsive)
     width: 5rem;
 
 }
@@ -342,15 +297,12 @@ background: rgb(231, 238, 241);
     background-color: rgb(214, 209, 209);
   
 }
-<<<<<<< HEAD
-=======
 .linex {
     height: 1px;
     width: 100%;
     background-color: rgb(214, 209, 209);
   
 }
->>>>>>> c41a6d5 (responsive)
 .line5 {
     height: 1px;
     width: 100%;
@@ -519,14 +471,11 @@ margin-left: 30px;
     font-weight: 400;
         color: rgb(141, 138, 138);
 }
-<<<<<<< HEAD
-=======
 .entriess{
     font-weight: 400;
         color: rgb(141, 138, 138);
         margin-left: 10px;
 }
->>>>>>> c41a6d5 (responsive)
 .sid{
     height: 30px;
     width: 50px;
@@ -589,12 +538,9 @@ margin-left: 20px;
     margin-left: 20px;
     color: rgb(136, 208, 226);
 }
-<<<<<<< HEAD
-=======
 .flexx{
     display: flex;
 }
->>>>>>> c41a6d5 (responsive)
 .chart {
     font-size: 2rem;
     margin-top: 15px;
@@ -643,8 +589,6 @@ margin-left: 20px;
    border-radius: 100%;
 
 }
-<<<<<<< HEAD
-=======
 .box {
     width: var(--width); 
    bottom: 0;
@@ -661,15 +605,12 @@ margin-left: 20px;
    display: flex;
 
 }
->>>>>>> c41a6d5 (responsive)
 
 @keyframes spin {
     100% {
         transform: rotate(360deg); 
        
     }
-<<<<<<< HEAD
-=======
 }
 @media (min-width:900px) {
 .view{
@@ -997,5 +938,4 @@ margin-left: 70px;
 .chart{
     margin-left: 70px;
     }
->>>>>>> c41a6d5 (responsive)
 }

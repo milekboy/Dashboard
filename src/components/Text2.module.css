@@ -38,8 +38,6 @@
     margin-top: 10px;
     color: rgb(142, 143, 143);
     font-weight: 400;
-<<<<<<< HEAD
-=======
 }
 @media (max-width:900px) {
     .chat{
@@ -53,5 +51,4 @@
         color: rgb(142, 143, 143);
         font-weight: 400;
     }
->>>>>>> c41a6d5 (responsive)
 }

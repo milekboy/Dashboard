@@ -60,10 +60,7 @@
     margin-top: 15px;
    border: none;
    margin-left: 10px;
-<<<<<<< HEAD
-=======
    border-radius: 6px;
->>>>>>> c41a6d5 (responsive)
 }
 .scroll{
     overflow-y: scroll;
@@ -85,8 +82,6 @@
     color: red;
 }
 
-<<<<<<< HEAD
-=======
 @media (min-width:900px) {
     .bar{
         margin-left: 21rem;
@@ -107,4 +102,3 @@
     font-size: 10px;
 }
 }
->>>>>>> c41a6d5 (responsive)

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-.boxes{
-=======
 .boxess{
->>>>>>> c41a6d5 (responsive)
     display: flex;
 }
 .dollar{
@@ -31,11 +27,6 @@
 .linx{
     height: 5px;
     width: 100%;
-<<<<<<< HEAD
-      /* background-color: rgb(91, 177, 80); */
-    margin-top: 69px;
-}
-=======
     margin-top: 69px;
 }
 @media (max-width:900px) {
@@ -43,4 +34,3 @@
         margin-top: 20px;
     }
  }
->>>>>>> c41a6d5 (responsive)

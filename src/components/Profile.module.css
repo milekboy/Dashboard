@@ -49,8 +49,6 @@ border-radius: 100%;
 margin-left: 30px;
     cursor: pointer;
 }
-<<<<<<< HEAD
-=======
 @media (max-width:900px) { 
     .omo{
         display: none;
@@ -80,4 +78,3 @@ margin-left: 30px;
         display: none;
     }
 }
->>>>>>> c41a6d5 (responsive)

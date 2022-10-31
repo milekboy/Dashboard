@@ -17,12 +17,9 @@
     font-size: 13px;
     color: grey;
     font-weight: 400;
-<<<<<<< HEAD
-=======
 }
 @media (max-width:900px) {
     .container{
         display: none;
     }
->>>>>>> c41a6d5 (responsive)
 }

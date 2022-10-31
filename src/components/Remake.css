@@ -157,9 +157,6 @@ background-color: rgb(232, 236, 243);
  }
  .anali:hover {
      background-color: rgb(177, 191, 219);
-<<<<<<< HEAD
- }
-=======
  }
  @media (min-width:900px) {
     .head {
@@ -182,4 +179,3 @@ background-color: rgb(232, 236, 243);
         margin-top: 0px;
       }
 } 
->>>>>>> c41a6d5 (responsive)
