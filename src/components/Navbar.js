@@ -309,7 +309,7 @@ function packActiveHandler(){
              <FontAwesomeIcon icon={faGear} className='gear'></FontAwesomeIcon>
            </div>
         </div>
-         
+        <div>Width: {width}</div><div>Height: {height}</div>
         </div>
     
 
