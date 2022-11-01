@@ -695,7 +695,7 @@ margin-left: 20px;
         top: 0;
         left: 0;
         width: 98%;
-        height: 55%;
+        height: 75%;
         margin-left:0px ;
         margin-top: 260px;
         display: block;
@@ -707,7 +707,7 @@ margin-left: 20px;
     .inside{
      width: inherit; 
      margin-left: 8px;
-     height: fit-content;
+     height: inherit;
     }
     .portfoli{
         width: 17.5rem
@@ -772,7 +772,6 @@ margin-left:8px ;
 .container5{
     margin-top: 1900px;
     position: absolute;
-    width: 17.6rem;
     height: 100%;
     top: 0;
     left: 0;
@@ -951,5 +950,79 @@ margin-left: 70px;
 }
 .chart{
     margin-left: 70px;
+    }
+}
+@media screen and (device-aspect-ratio: 375/667) {
+    .container3{
+        height: 87%;
+    }
+    .insidd {
+        height:90%;
+       
+        margin-top:10px ;
+    }
+    .insid{
+        height: 80%;
+    }
+    .inside2 {
+        height:30.5%;
+     
+    }
+    .inside1{
+        height:30.5%;
+     
+    }
+    .container5{
+        margin-top: 1755px;
+    }
+    .containerv{
+        margin-top: 2610px;
+    }
+    .insidei{
+        height: 150%;
+    }
+    .container8{
+        margin-top: 4670px;
+    }
+    .container8{
+        height: 37%;
+    }
+}
+@media screen and (device-aspect-ratio: 390/844) {
+    .insidd {
+        height:75%;
+       
+    }
+    .inside1 {
+        height:23.5%;
+    }
+    .inside2 {
+        height:23.5%;
+    }
+    .insidei {
+        height:120%;
+     
+    }
+    .container3{
+        height: 77%;
+    }
+}
+@media screen and (device-aspect-ratio: 393/851) {
+    .insidd {
+        height:75%;
+       
+    }
+    .inside1 {
+        height:23.5%;
+    }
+    .inside2 {
+        height:23.5%;
+    }
+    .insidei {
+        height:120%;
+     
+    }
+    .container3{
+        height: 77%;
     }
 }
