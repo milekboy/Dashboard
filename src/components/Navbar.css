@@ -1101,3 +1101,28 @@ margin-left: 70px;
     margin-top: 3650px;
 }
 }
+@media screen and (device-aspect-ratio: 428/926) {
+.container3{
+    height: 73%;
+}
+.container5{
+    margin-top: 1800px;
+}
+.containerv{
+    margin-top: 2717px;
+}
+.insidei{
+    height: 110%;
+   
+}
+.container7{
+    margin-top: 3750px;
+}
+.container8{
+    margin-top: 4820px;
+    height: 25%;
+}
+.container9{
+    margin-top: 5110px;
+}
+}
