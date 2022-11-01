@@ -79,5 +79,13 @@ transform: rotate(270deg);
 }
 @media (min-width:900px) {
     .hea {
-        width: 15% ; }
-}
+        width: 15% ; }}
+
+        @media (max-width:900px) {
+            
+                .wrappe .sideba {
+                 display: none;
+                 }
+                 .hea {
+                   display: none; } 
+                }
