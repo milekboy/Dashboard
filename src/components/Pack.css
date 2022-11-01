@@ -1,0 +1,78 @@
+.containerp{
+    height: 50px;
+    width: 280px;
+    background-color: white;
+    margin-top: 75px;
+    margin-left: 20px;
+   border-radius: 20px;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+}
+.containerpp{
+    display: flex;
+    margin-left: 50px;
+}
+.iconp{
+    cursor: pointer;
+        color: rgb(72, 126, 241);
+            height: 20px;
+            border-radius: 100%;
+            margin-top: 3px;
+            margin-left: 20px;
+            margin-top: 15px;
+    }
+    .cancelp{
+        cursor: pointer;
+            color: rgb(72, 126, 241);
+            height: 20px;
+            margin-left: 25px;
+            margin-top: 13px;
+    }
+    .lolp{
+        height: 19px;
+        padding-right: 0.5rem;
+        padding-top: 0rem;
+        padding-bottom: 0.25rem;
+        margin-left: 0.5rem;
+        margin-top: 8px;
+       }
+       .coverp{
+           margin-left: -2rem;
+           height: 40px;
+           margin-top: 5px;
+           background-color: rgb(216, 220, 228);
+           border-radius: 100%;
+           color: rgb(72, 126, 241); 
+       }
+       .coverrp{
+           height: 40px;
+           margin-top: 5px;
+           margin-left: 1rem;
+           background-color: rgb(248, 205, 205);
+           border-radius: 100%;
+           color: red;
+       }
+       .coverrrp{
+           height: 40px;
+           margin-top: 5px;
+           background-color: rgb(228, 209, 209);
+           border-radius: 100%;
+           color: rgb(223, 95, 95);
+           margin-left: 1rem;
+       }
+       .coverrrrp{
+        background-color: rgb(196, 240, 196);
+        border-radius: 100%;
+        color: rgb(79, 216, 79);
+           height: 40px;
+           margin-top: 5px;
+           margin-left: 1rem;
+       }
+       @media (max-width:900px) {
+        .lorr {
+        display: none;
+           
+        } 
+    }

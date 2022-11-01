@@ -2,8 +2,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faCar, faBars, faCloudArrowDown, faComputer, faMicrophone, faEarth, faPieChart, faAngleUp, faGear , faGripVertical, faX} from '@fortawesome/free-solid-svg-icons'
 import Slider from "react-slick";
 import './Navbar.css'
-// import { useLayoutEffect,useState} from 'react';
-import {useState } from 'react';
+import { useLayoutEffect,useState} from 'react';
 import Searchbar from './Searchbar';
 import Mega from './Mega';
 import Icons from './Icons';
@@ -21,20 +20,20 @@ import Chats from './Chats';
 import Followers from './Followers';
 import Pack from './Pack';
 import SmallAnalytics from './small screen components/SmallAnalytics';
-// function useWindowSize() {
-//   const [size, setSize] = useState([0, 0]);
-//   useLayoutEffect(() => {
-//     function updateSize() {
-//       setSize([window.innerWidth, window.innerHeight]);
-//     }
-//     window.addEventListener('resize', updateSize);
-//     updateSize();
-//     return () => window.removeEventListener('resize', updateSize);
-//   }, []);
-//   return size;
-// }
+function useWindowSize() {
+  const [size, setSize] = useState([0, 0]);
+  useLayoutEffect(() => {
+    function updateSize() {
+      setSize([window.innerWidth, window.innerHeight]);
+    }
+    window.addEventListener('resize', updateSize);
+    updateSize();
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
+  return size;
+}
 const Navbar =(props)=>{
-  // const [width, height] = useWindowSize();
+  const [width, height] = useWindowSize();
    const [searchOn, setSearchOn] =useState(false);
    function searchOnHandler(){
    setSearchOn(true);
@@ -309,7 +308,7 @@ function packActiveHandler(){
              <FontAwesomeIcon icon={faGear} className='gear'></FontAwesomeIcon>
            </div>
         </div>
-        {/* <div>Width: {width}</div><div>Height: {height}</div> */}
+         <div className='fff'>Width: {width}</div><div className='fff'>Height: {height}</div> 
         </div>
     
 

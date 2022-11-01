@@ -1,7 +1,6 @@
-import classes from './Pack.module.css'
+import './Pack.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faSearch, faX} from '@fortawesome/free-solid-svg-icons'
-import Icons from './Icons';
+import { faSearch, faX, faBell, faBox, faFlagUsa, faImage} from '@fortawesome/free-solid-svg-icons'
 import Searchbar from './Searchbar';
 import { useState } from 'react';
 const Pack=()=>{
@@ -11,9 +10,22 @@ const Pack=()=>{
    }
     return(
 <>
-<div className={classes.container}>
-{ searchOn ? <><Searchbar/>  <FontAwesomeIcon icon={faX} className={classes.cancel} onClick={setSearchOnHandler}></FontAwesomeIcon></> : <FontAwesomeIcon icon={faSearch } className={classes.icon} onClick={setSearchOnHandler}></FontAwesomeIcon> }
-<Icons/>
+<div className='containerp'>
+{ searchOn ? <><Searchbar/>  <FontAwesomeIcon icon={faX} className='cancelp' onClick={setSearchOnHandler}></FontAwesomeIcon></> : <FontAwesomeIcon icon={faSearch } className='iconp' onClick={setSearchOnHandler}></FontAwesomeIcon> }
+<div className={searchOn?'lorr': 'containerpp'}>
+        <div className='coverp'>
+         <FontAwesomeIcon icon={faBox } className='lolp'></FontAwesomeIcon>
+         </div>
+         <div className='coverrp'>
+          <FontAwesomeIcon icon={faBell } className='lolp'></FontAwesomeIcon>
+          </div>
+          <div className='coverrrp'>
+           <FontAwesomeIcon icon={faFlagUsa } className='lolp'></FontAwesomeIcon>
+           </div>
+           <div className='coverrrrp'>
+            <FontAwesomeIcon icon={faImage  } className='lolp'></FontAwesomeIcon>
+            </div>
+    </div>
 </div>
 </>
     );
