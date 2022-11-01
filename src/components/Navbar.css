@@ -23,7 +23,7 @@
     right: 0;
 }
 .navs{
-    width: 74%;
+    width: 100%;
   
     height: 65px;
     background-color: white;
@@ -43,11 +43,11 @@
     display: flex;
 }
 .arch{
-    margin-left: 3.5rem;
+    margin-left: 30%;
     margin-top: 9px;
 }
 .grips{
-    margin-left: 4rem;
+    margin-left: 25%;
     margin-top: 17px;
     color: white;
     background-color: rgb(72, 126, 241) ;
@@ -335,7 +335,7 @@ background: rgb(231, 238, 241);
     background-color: white;
     margin-left: 25px;
 }
-.container6 {
+.containerv {
     position: absolute;
     top: 0;
     right: 0;
@@ -668,24 +668,24 @@ margin-left: 20px;
     .container2 {
         left: 0;
         display: block;
-        width: 290px;
+        width: 95%;
     }
     .var1{
         margin-left: 8px; 
         border: none;
         height: 30px;
-        width: 280px;
+        width: 95%;
         color: white;
         background-color: rgb(74, 123, 230);
         border-radius: 5px;
-        margin-top: 10px;
+        margin-top: 5px;
       }
       .var2 {
         margin-left: 8px; 
         background-color: rgb(74, 123, 230);
       height: 30px;
       margin-top: 10px;
-          width: 280px;
+          width: 95%;
           border: none;
           color: white;
           border-radius: 5px;
@@ -694,10 +694,10 @@ margin-left: 20px;
         position: absolute;
         top: 0;
         left: 0;
-        width: 290px;
+        width: 98%;
         height: 55%;
         margin-left:0px ;
-        margin-top: 270px;
+        margin-top: 260px;
         display: block;
         /* align-items: center; */
         float: left;
@@ -705,7 +705,7 @@ margin-left: 20px;
     background: rgb(231, 238, 241);
     }
     .inside{
-     width: 17.5rem; 
+     width: inherit; 
      margin-left: 8px;
      height: fit-content;
     }
@@ -727,7 +727,7 @@ margin-left: 20px;
     width: 5rem;
    }
    .line{
-    width: 17.5rem
+    width: 100%;
    }
    .portfol {
     display: block;
@@ -736,21 +736,22 @@ margin-left: 20px;
 }
 
 .report{
-    margin-left: 5%;
+    margin-left: 15%;
     padding-bottom: -7px;
     
 }
 .container4 {
     position: absolute;
-    width: 17.6rem;
     height: 85%;
     margin-top: 770px;
-    margin-right: 125px;
+    margin-right: 0px;
     display: block;  
     overflow: visible;
 background: rgb(231, 238, 241);
 top: 0;
 left: 0;
+width: 98%;
+margin-left:8px ;
 }
 .line2{
     width: 100%;
@@ -775,7 +776,8 @@ left: 0;
     height: 100%;
     top: 0;
     left: 0;
-    margin-right: 126px;
+    width: 98%;
+    margin-left:8px ;
     margin-top: 1745px;
     display: block;  
     overflow: visible;
@@ -788,18 +790,19 @@ background: rgb(231, 238, 241);
    margin-left: -50px;  
 }
 .sale{
+    margin-top: 20%;
     margin-left: 70px;
     }
     .linex{
-        width: 17.5rem;
-        margin-left: 50px;
+       display: none;
     }
     .line4 {
        margin-top: -20px;
       
     }
-    .container6{
-        margin-right: 126px;
+    .containerv{
+        width: 98%;
+        margin-left:8px ;
         position: absolute;
         width: 17.6rem;
         height: 100%;
@@ -818,7 +821,7 @@ background: rgb(231, 238, 241);
     }
     .insidei {
         height:114%;
-         width: inherit; 
+         width:inherit; 
         background-color: white;
         margin-left: 0px;
         margin-top:00px ;
@@ -867,13 +870,15 @@ background: rgb(231, 238, 241);
         overflow: visible;
     background: rgb(231, 238, 241);
         margin-top: 3620px;
-        margin-right: 126px;
+        width: 98%;
+        margin-left:8px ;
     }
     .container8{
         margin-top: 4650px;
         position: absolute;
         width: 17.6rem;
-        margin-right: 126px;
+        width: 98%;
+        margin-left:8px ;
         height: 30%;
         top: 0;
         left: 0;
@@ -893,7 +898,7 @@ background: rgb(231, 238, 241);
         margin-top: 4963px;
         position: absolute;
   
-        width: 18.1rem;
+        width: 100%;
         display: flex;  
         overflow: visible;
         left: 0;

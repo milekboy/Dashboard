@@ -1,16 +1,16 @@
 .flex{
     display: flex;
-   margin-left: 110px;
+   margin-left: 30%;
 }
 .ana{
-   margin-left: 5rem; 
+   margin-left: 30%; 
    font-weight: 300;
    font-size: 16px;
    margin-top: 3px;
 }
 .text{
     /* width: % ; */
-    margin-left: 10px;
+    margin-left: 20%;
 margin-top: -10px;
 font-weight: 400;
 font-size: 10px;
@@ -20,7 +20,7 @@ span{
 }
 .analytic{
     background-color: ghostwhite;
-    width: 19.1rem;
+    width: 100%;
     height:  7rem;
     margin-top: 65px;
     z-index: 0;
