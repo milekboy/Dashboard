@@ -89,3 +89,9 @@ transform: rotate(270deg);
                  .hea {
                    display: none; } 
                 }
+                @media (max-width:1920px) {
+                    .hea{
+                      width: 10%;  
+                    }
+                    
+                    }

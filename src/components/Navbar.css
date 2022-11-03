@@ -283,6 +283,14 @@ background: rgb(231, 238, 241);
     margin-right: 50px;
 
 }
+.insids {
+    height: 100%;
+     width: calc(100% - 550px); 
+    background-color: white;
+    margin-left: 65px;
+    margin-right: 50px;
+
+}
 .insidd {
     height: 530px;
     width: calc(100% - 550px);
@@ -656,10 +664,10 @@ margin-left: 20px;
         left: 0;
     }
     .box{
-       width: 414px;
+       width: 100%;
     }
     .bo{
-       width: 414px;
+       width: 100%;
     }
    
     .container{
@@ -1125,4 +1133,79 @@ margin-left: 70px;
 .container9{
     margin-top: 5110px;
 }
+}
+@media (max-width:1920px) {
+    .header {
+        width: 802px;
+      width: 720px;
+      /* display: none; */
+    } 
+    .dd{
+        display: none;
+    }
+    .ddd{
+        height: 1px;
+        width: 1px;
+        background-color: white;
+        margin-left: 230px;
+    }
+    .inside1{
+        width: 20.5%;
+    }
+    .inside2{
+        width: 20.5%;
+    }
+    .inside{
+        height: 400px;
+     width: calc(100% - 90px); 
+        background-color: white;
+        margin-left: 65px;
+        margin-right: 50px;
+       
+    }
+   .view{
+    margin-left: 400px;
+   }
+   .report{
+    margin-top: 10px;
+   }
+   .insid{
+    width: 40%;
+    height: 96%;
+   }
+   .insidd{
+    width: 40%;
+   }
+   .container4{
+    height: 550px;
+   }
+   .linex{
+   display: none;
+   }
+   .sale{
+    margin-top: 100px;
+   }
+   .insidei{
+    width: calc(100% - 90px);
+    height: 100%; 
+   }
+   .search{
+    margin-left: 300px;
+   }
+   .computerr{
+    display: none
+   }
+   .container7{
+    height: 100%;
+   }
+   .insids{
+    height: 86%;
+   }
+   .insidex{
+    width: calc(100% - 100px);
+    
+   }
+   .grids{
+    margin-left: 300px;
+   }
 }

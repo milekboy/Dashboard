@@ -49,3 +49,9 @@ margin-left: 100px;
     margin-left: 40px;
  }
 }
+@media (max-width:1920px) {
+   .img{
+      width: 200px;
+      margin-left: 50px;
+   }
+}

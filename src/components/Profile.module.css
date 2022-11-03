@@ -78,3 +78,11 @@ margin-left: 30px;
         display: none;
     }
 }
+@media (max-width:1920px) {
+    .pic{
+        margin-left: 10px;
+        }
+        .line{
+            display: none;
+        }
+}

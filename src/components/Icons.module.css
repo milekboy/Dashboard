@@ -67,3 +67,8 @@
    
    
 }
+@media (max-width:1920px) {
+    .container{
+        margin-left: 30px;
+    }
+}

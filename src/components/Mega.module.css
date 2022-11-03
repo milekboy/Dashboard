@@ -10,3 +10,8 @@
        
     } 
 }
+@media (max-width:1920px) {
+    .lol{
+        margin-left: -5rem;
+    }
+}

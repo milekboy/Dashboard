@@ -179,3 +179,20 @@ background-color: rgb(232, 236, 243);
         margin-top: 0px;
       }
 } 
+@media (max-width:1920px) {
+    .logo{
+        margin-left: -6rem;
+    }
+    .lol{
+        margin-left: 1rem;
+    }
+    .loll1{
+        margin-left: 40px;
+    }
+    .lolll1{
+        margin-left: 75px;
+    }
+    .lolll2{
+        margin-left: 35px;
+    }
+}

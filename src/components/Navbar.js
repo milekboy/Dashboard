@@ -76,6 +76,7 @@ function packActiveHandler(){
 { packActive ? <Pack/>: null}
 </>}
     <header className={sidebarIsOpen? "header":"headerr"}>
+      <div className={sidebarIsOpen? 'dd':'ddd'}></div>
    {searchOn ?<Searchbar change={searchOffHandler} />: <Mega onHandler={searchOnHandler}/>}
    <Icons/>
    <Profile/>
@@ -275,7 +276,7 @@ function packActiveHandler(){
           </div>
            </div>
            <div className='container7'>
-            <div className='insid'> 
+            <div className='insids'> 
             <Tasks/>
             </div>
             <div className='insidd'> 
